@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "0ac30721-5209-477f-8ff8-2bcd9479695a",
+  "status": "current",
+  "command": "deliver",
+  "type": "architecture",
+  "input": "D:\\code\\pi-sticky-model\\.archify\\architecture-sticky-20261005-181834\\candidate.json",
+  "output": "D:\\code\\pi-sticky-model\\docs\\architecture.html",
+  "specification": {
+    "sha256": "00df678d4c80a7d421920cbf7a11e95364b8e84fb24bf10de298d3957f4af7de",
+    "bytes": 3119
+  },
+  "artifact": {
+    "sha256": "4e648a278b98451276a1c05c7ad9d93a6f63f0c484e2c47d620edaf055638feb",
+    "bytes": 753427
+  }
+}

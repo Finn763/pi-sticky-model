@@ -46,6 +46,10 @@ Built to fix three small paper cuts every pi user has met:
 Listens to two extension events, writes to `<agent-dir>/settings.json`
 (`~/.pi/agent` by default, `PI_CODING_AGENT_DIR` when set):
 
+![sticky-model flow](docs/architecture.svg)
+
+[▶ Interactive version](https://finn763.github.io/pi-sticky-model/architecture.html)
+
 1. **`model_select` with `source: "set"`** — writes `defaultProvider` +
    `defaultModel`, plus a `modelThinkingLevels` entry for the new model from the
    current thinking level. Anything else (`cycle`, `restore`) is ignored.

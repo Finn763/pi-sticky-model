@@ -44,6 +44,10 @@ thinking effort，切回去时原样恢复。
 监听两个扩展事件，写 `<agent-dir>/settings.json`
 （默认 `~/.pi/agent`，`PI_CODING_AGENT_DIR` 优先）：
 
+![sticky-model 流程](docs/architecture.zh-CN.svg)
+
+[▶ 交互版](https://finn763.github.io/pi-sticky-model/architecture.zh-CN.html)：
+
 1. **`model_select` 且 `source: "set"`** —— 写 `defaultProvider` +
    `defaultModel`，并按当前 thinking level 给新模型记一条
    `modelThinkingLevels`。其他来源（`cycle`、`restore`）一律忽略。
